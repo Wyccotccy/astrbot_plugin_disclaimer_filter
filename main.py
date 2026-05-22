@@ -33,7 +33,7 @@ class DisclaimerFilter(Star):
         )
         self.reply_msg = self.config.get(
             "reply_on_block",
-            "⚠️ 您尚未同意免责声明，无法使用本机器人。\n请前往 https://cinder.rip/disclaimer 阅读并同意免责声明后，再使用本机器人。"
+            "⚠️ 您尚未同意免责声明，无法使用本机器人。\n请前往 https://cinder.wyccotccy.cn/disclaimer 阅读并同意免责声明后，再使用本机器人。"
         )
         self.admin_ids = self.config.get("admin_ids", ["1449783068", "2280158744"])
         self._cache: Dict[str, bool] = {}
