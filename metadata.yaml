@@ -1,0 +1,6 @@
+name: "astrbot_plugin_disclaimer_filter"
+version: "1.0.0"
+description: "免责声明同意状态检查插件 - 拦截未同意免责声明的用户，保护服务提供方"
+author: "cinder"
+repo: "https://github.com/Wyccotccy/astrbot_plugin_disclaimer_filter"
+display_name: "免责声明过滤器"
