@@ -11,12 +11,12 @@
         "type": "text",
         "hint": "发送给未同意用户的提示信息",
         "obvious_hint": false,
-        "default": "⚠️ 您尚未同意免责声明，无法使用本机器人。\n请前往 https://cinder.rip/disclaimer 阅读并同意免责声明后，再使用本机器人。"
+        "default": "⚠️ 您尚未同意免责声明，无法使用本机器人。\n请前往 https://cinder.wyccotccy.cn/disclaimer 阅读并同意免责声明后，再使用本机器人。"
     },
     "admin_ids": {
         "description": "管理员QQ号列表（白名单，不受拦截）",
         "type": "list",
         "items": { "type": "string" },
-        "default": ["1449783068", "2280158744"]
+        "default": ["1449783068"]
     }
 }
