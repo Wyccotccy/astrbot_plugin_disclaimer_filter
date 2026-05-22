@@ -23,6 +23,20 @@
 
 - aiohttp（AstrBot 内置依赖，无需额外安装）
 
+## 配套服务端
+
+本插件需要配合免责声明同意系统使用，可以通过以下开源项目一键部署到自己的服务器/网站：
+
+👉 **[Wyccotccy/disclaimer-consent](https://github.com/Wyccotccy/disclaimer-consent)**
+
+这是一个轻量级的免责声明同意管理系统，支持：
+- 完整的免责声明展示页面（v4.0）
+- 用户点击同意后记录到 SQLite 数据库
+- API 接口供机器人查询用户的同意状态
+- 防重复提交（同 QQ/IP/设备指纹）
+- 内置简易管理面板
+- 无外部依赖，PHP 8.0+ + SQLite 即可运行
+
 ## 工作原理
 
 ```
